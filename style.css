@@ -1,0 +1,55 @@
+#container {
+    display: block;
+    left: auto;
+    right: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+div {
+    display: block;
+}
+input {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+}
+input:hover {
+    background-color: lightgray;
+}
+.top {
+    border-top: 4px solid black;
+}
+.left {
+    border-left: 4px solid black;
+}
+.right {
+    border-right: 4px solid black;
+}
+.bottom {
+    border-bottom: 4px solid black;
+}
+button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background: lightgrey;
+    font-family: 'Times New Roman', Times, fantasy;
+    border: 1px solid rgb(0, 153, 255);
+    transition-duration: 0.5s;
+    border-radius: 5px;
+    width: auto;
+    height: 30px;
+}
+button:hover {
+    background: rgb(0, 153, 255) !important;
+    color: white;
+}
+header {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Times New Roman', Times, fantasy;
+    font-size: 30px;
+}
