@@ -114,6 +114,9 @@ function createGame() {
         container.appendChild(d);
         for (let j = 0; j < 9; j ++) {
             let c = document.createElement("input");
+            let size = Math.min(window.screen.width, window.screen.height);
+            c.style.width = `${size / 20}px`;
+            c.style.height = `${size / 20}px`;
             c.type = "text";
             let id = j.toString() + i.toString();
             c.setAttribute("id", id);
