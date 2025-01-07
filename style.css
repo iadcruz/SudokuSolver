@@ -12,6 +12,8 @@ input {
     display: inline-block;
     text-align: center;
     border: 1px solid black;
+    font-family: 'Times New Roman', Times, fantasy;
+    font-size: 25px;
 }
 input:hover {
     background-color: lightgray;
@@ -34,10 +36,11 @@ button {
     display: block;
     background: lightgrey;
     font-family: 'Times New Roman', Times, fantasy;
+    font-size: 20px;
     border: 1px solid rgb(0, 153, 255);
     transition-duration: 0.5s;
     border-radius: 5px;
-    width: auto;
+    width: 80px;;
     height: 30px;
 }
 button:hover {
